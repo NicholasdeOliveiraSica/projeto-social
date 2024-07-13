@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(imagens/fundo-madeira.jpg);
+    background-repeat: no-repeat;
+    background-size: 1920px 100vh;
+    background-position: center top;
+    margin: 0px;
+    padding: 0px;
+}
+
+#celular {
+    background-image: url(imagens/frame-iphone.png);
+    width: 310px;
+    height: 630px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#celular iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    scroll-snap-type: none;
+}
+
+#menu {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+}
+
+#menu a img {
+    border: 1px solid rgba(0, 0, 0, 0.055);
+    box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.507);
+    transition-duration: 0.3s;
+}
+
+#botaomenu {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+
+#botaomenu:hover {
+    border: 1px solid white;
+    right: 15px;
+    top: 2px;
+}
+
+#botaoyoutube {
+    position: absolute;
+    right: 10px;
+    top: 75px;
+}
+
+#botaoyoutube:hover {
+    border: 1px solid white;
+    right: 15px;
+    top: 72px;
+}
+
+#botaogithub {
+    position: absolute;
+    right: 10px;
+    top: 145px;
+}
+
+#botaogithub:hover {
+    border: 1px solid white;
+    right: 15px;
+    top: 142px;
+}
+
+#botaoinsta {
+    position: absolute;
+    right: 10px;
+    top: 215px;
+}
+
+#botaoinsta:hover {
+    border: 1px solid white;
+    right: 15px;
+    top: 212px;
+}
+
+#botaotwitter {
+    position: absolute;
+    right: 10px;
+    top: 285px;
+}
+
+#botaotwitter:hover {
+    border: 1px solid white;
+    right: 15px;
+    top: 282px;
+}
+
+#botaofacebook {
+    position: absolute;
+    right: 10px;
+    top: 355px;
+}
+
+#botaofacebook:hover {
+    border: 1px solid white;
+    right: 15px;
+    top: 352px;
+}
+
+
