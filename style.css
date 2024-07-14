@@ -1,114 +1,61 @@
 @charset "UTF-8";
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-image: url(imagens/fundo-madeira.jpg);
-    background-repeat: no-repeat;
-    background-size: 1920px 100vh;
-    background-position: center top;
-    margin: 0px;
-    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+    background: 
+        black 
+        url(imagens/fundo-madeira.jpg) 
+        no-repeat 
+        top center;
+    background-size: 
+        cover;
 }
 
-#celular {
-    background-image: url(imagens/frame-iphone.png);
-    width: 310px;
-    height: 630px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-#celular iframe {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    scroll-snap-type: none;
-}
-
-#menu {
-    display: block;
+main {
     width: 100vw;
     height: 100vh;
 }
 
-#menu a img {
-    border: 1px solid rgba(0, 0, 0, 0.055);
-    box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.507);
-    transition-duration: 0.3s;
-}
-
-#botaomenu {
+section#tela {
+    background: url(imagens/frame-iphone.png);
+    height: 630px; width: 310px;
     position: absolute;
-    right: 10px;
-    top: 5px;
+    left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
 }
 
-#botaomenu:hover {
+section#tela iframe {
+    position: relative;
+    left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section#icons{
+    text-align: right;
+}
+
+section#icons li {
+    padding: 5px;
+    padding-right: 25px;
+}
+
+section#icons ul {
+    padding-top: 30px;
+}
+
+section#icons img {
+    border-radius: 50%;
+    width: 60px;
+    border: 1px solid transparent;
+}
+section#icons img:hover {
     border: 1px solid white;
-    right: 15px;
-    top: 2px;
+    transform: translate(-5px, -5px);
+    transition: transform 0.3s, border 0.5s;
 }
-
-#botaoyoutube {
-    position: absolute;
-    right: 10px;
-    top: 75px;
-}
-
-#botaoyoutube:hover {
-    border: 1px solid white;
-    right: 15px;
-    top: 72px;
-}
-
-#botaogithub {
-    position: absolute;
-    right: 10px;
-    top: 145px;
-}
-
-#botaogithub:hover {
-    border: 1px solid white;
-    right: 15px;
-    top: 142px;
-}
-
-#botaoinsta {
-    position: absolute;
-    right: 10px;
-    top: 215px;
-}
-
-#botaoinsta:hover {
-    border: 1px solid white;
-    right: 15px;
-    top: 212px;
-}
-
-#botaotwitter {
-    position: absolute;
-    right: 10px;
-    top: 285px;
-}
-
-#botaotwitter:hover {
-    border: 1px solid white;
-    right: 15px;
-    top: 282px;
-}
-
-#botaofacebook {
-    position: absolute;
-    right: 10px;
-    top: 355px;
-}
-
-#botaofacebook:hover {
-    border: 1px solid white;
-    right: 15px;
-    top: 352px;
-}
-
-
