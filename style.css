@@ -23,8 +23,8 @@ main {
 }
 
 section#tela {
-    background: url(imagens/frame-iphone.png);
-    height: 630px; width: 310px;
+    background: no-repeat url(imagens/frame-iphone.png);
+    height: 633px; width: 311px;
     position: absolute;
     left: 50%; top: 50%;
     transform: translate(-50%, -50%);
@@ -55,7 +55,7 @@ section#icons img {
     border: 1px solid transparent;
 }
 section#icons img:hover {
-    border: 1px solid white;
+    border: 1px solid rgba(255, 255, 255, 0.514);
     transform: translate(-5px, -5px);
     transition: transform 0.3s, border 0.5s;
 }
